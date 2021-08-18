@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+	
+	<head>
+		<meta charset="UTF-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	    <title>FoodBox</title>
+
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <script type="text/javascript" src="javascript/action.js"></script>
+
+	    <link rel="preconnect" href="https://fonts.googleapis.com" />
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	    <link
+	      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap"
+	      rel="stylesheet"
+	    />
+	</head>
+	
+	<body>
+
+		<div class="topo">
+			<h1>FoodBox</h1>
+			<h3>Monte seu Box em 15 minutos!!!</h3>
+		</div>
+
+		<div>
+			<h4>Primeiro, seu prato</h4>
+		</div>
+
+		<div id="frango" class="produto" onclick="selectFrango()">
+
+			<img src="https://www.sabornamesa.com.br/media/k2/items/cache/dee4183b3eece6f1f1fda5b7115d2824_L.jpg">
+			<h5>Frango</h5>
+			<p>Pra salvar o Nico-nii.</p>
+			<p><b>R$ 100,00</b></p>
+
+		</div>
+
+		<div id="arroz" class="produto" onclick="selectArroz()">
+			
+			<img src="https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg?mode=crop&width=710&height=400">
+			<h5>Arroz</h5>
+			<p>Pra dar colesterol no Nobre.</p>
+			<p><b>R$ 40,00</b></p>
+
+		</div>
+
+		<div id="nozes" class="produto" onclick="selectNozes()">
+			
+			<img src="https://vtb.r7.com/399590/2021/03/22/6058100b4b495553eb0001ad/96bc6608d7dc42d4bb0de7120f1cc2ef__174581_EPP_2103_CR_PEDIDO_2_thumb_thumb.jpg">
+			<h5>Nozes</h5>
+			<p>É nozes.</p>
+			<p><b>R$ 1000,00</b></p>
+
+		</div>
+
+		<div id="carne" class="produto" onclick="selectCarne()">
+
+      		<img src="imagens/carne.jpg" />
+      		<h4>Carne e salada</h4>
+      		<p>Partida ao meio pra parecer mais carne</p>
+      		<p class="preco">R$ 24,90</p>
+
+    	</div>
+
+    	<h4>Agora, sua bebida</h4>
+
+    	<div id="coca" class="produto" onclick="selectCoca()">
+	        <img src="imagens/coca.jpg" />
+	        <h4>Coca-cola gelada</h4>
+	        <p>Normal, zero ou stevia. Vai na sorte.</p>
+	        <p class="preco">R$ 5,90</p>
+	    </div>
+
+	    <div id="refresco" class="produto" onclick="selectRefresco()">
+	        <img src="imagens/refresco.jpg" />
+	        <h4>Refresco</h4>
+	        <p>Podia ser suco, mas leva água</p>
+	        <p class="preco">R$ 3,90</p>
+	    </div>
+
+	    <h4>Por fim, sua sobremesa</h4>
+
+	    <div id="pudim" class="produto" onclick="selectPudim()">
+	        <img src="imagens/pudim.jpg" />
+	        <h4>Pudim</h4>
+	        <p>Apenas um lindo e brilhante pudim</p>
+	        <p class="preco">R$ 7,90</p>
+	    </div>
+
+	    <div id="sorvete" class="produto" onclick="selectSorvete()">
+	        <img src="imagens/sorvete.jpg" />
+	        <h4>Sorvete bem gelado</h4>
+	        <p>Três bolinhas como na foto</p>
+	        <p class="preco">R$ 6,90</p>
+	    </div>
+
+	    <div class="botao" onclick="teste()">
+        	Finalizar pedido
+    	</div>
+
+	</body>
+
+</html>

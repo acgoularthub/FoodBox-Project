@@ -18,6 +18,7 @@ function selectArroz(){
 	 document.getElementById('nozes').style.borderColor = "white";
 
 	 prato = "Arroz";
+
 }
 
 function selectNozes(){
@@ -73,10 +74,13 @@ function selectSorvete(){
 //Botão de finalizar
 
 function finalizar(){
+	let mensagem;
+	mensagem = "https://wa.me/+5543999296574?text=" + "Olá,\ gostaria\ de\ pedir\ um\ combo\ de\ " + prato + ",\ " + bebida + "\ e\ " + sobremesa + ",\ por\ favor.";
 	
+	window.open(mensagem);
 }
 
 
-function teste(){
-	alert(prato + " " + bebida + " " + sobremesa)
-}
+/*function teste(){
+	alert("Olá, gostaria de pedir um combo de " + prato + ", " + bebida + " e " + sobremesa + ", por favor.");
+}*/

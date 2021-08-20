@@ -79,8 +79,3 @@ function finalizar(){
 	
 	window.open(mensagem);
 }
-
-
-/*function teste(){
-	alert("Olá, gostaria de pedir um combo de " + prato + ", " + bebida + " e " + sobremesa + ", por favor.");
-}*/
